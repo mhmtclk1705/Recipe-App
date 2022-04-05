@@ -18,6 +18,7 @@ export const NavbarContainer = styled.div`
   }
   a {
     text-decoration: none;
+    color: #02475e;
   }
 
   .navbar-right {
