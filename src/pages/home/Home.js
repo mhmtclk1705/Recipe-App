@@ -1,5 +1,5 @@
 import axios from 'axios'
-import React,{useEffect, useState} from 'react'
+import React,{useState} from 'react'
 import RecipeCard from './RecipeCard'
 import {BgImg, FoodContainer, FormContainer} from "./style"
 import homeSvg from '../../assets/home.svg'
