@@ -11,7 +11,7 @@ const AppRouter = () => {
     <div>
         <BrowserRouter>
         <Navbar/>
-        <div className="main">
+        {/* <div className="main"> */}
             <Routes>
                 <Route>
                 <Route path="/" element={<Home/>} />
@@ -20,7 +20,7 @@ const AppRouter = () => {
                 <Route path="/login" element={<Login/>} />
                 </Route>
             </Routes>
-        </div>
+        {/* </div> */}
         </BrowserRouter>
     </div>
   )
