@@ -3,6 +3,7 @@ import React,{useState} from 'react'
 import RecipeCard from './RecipeCard'
 import {BgImg, FoodContainer, FormContainer} from "./style"
 import homeSvg from '../../assets/home.svg'
+import Navbar from '../../components/navbar/Navbar'
 
 
 const category = ["Breakfast", "Lunch", "Dinner", "Snack", "Teatime"]

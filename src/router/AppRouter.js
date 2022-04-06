@@ -11,7 +11,6 @@ const AppRouter = () => {
     <div>
         <BrowserRouter>
         <Navbar/>
-        <Login/>
         {/* <div className="main"> */}
             <Routes>
                 <Route>
