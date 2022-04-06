@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="navbar-right">
             <NavLink to='/about'>ABOUT</NavLink>
             <a target="_blank" href="https://github.com/mhmtclk1705">GITHUB</a>
-            <NavLink to='/login'>LOGOUT</NavLink>
+            <NavLink to='/'>LOGOUT</NavLink>
 
         </div>
     </NavbarContainer>
