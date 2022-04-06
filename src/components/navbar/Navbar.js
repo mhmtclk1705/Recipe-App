@@ -8,7 +8,7 @@ const Navbar = () => {
             <NavLink to="/home"> <i> {"<CLARUSWAY>"} </i> <span>RECIPE</span></NavLink></div>
         <div className="navbar-right">
             <NavLink to='/about'>ABOUT</NavLink>
-            <a href="https://github.com/mhmtclk1705">GITHUB</a>
+            <a target="_blank" rel='noreferrer' href="https://github.com/mhmtclk1705">GITHUB</a>
             <NavLink to='/'>LOGOUT</NavLink>
 
         </div>

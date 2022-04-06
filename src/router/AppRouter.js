@@ -11,6 +11,7 @@ const AppRouter = () => {
     <div>
         <BrowserRouter>
         <Navbar/>
+        
             <Routes>
                 <Route>
                 <Route path="/home" element={<Home/>} />
@@ -19,6 +20,7 @@ const AppRouter = () => {
                 <Route path="/" element={<Login/>} />
                 </Route>
             </Routes>
+            
         </BrowserRouter>
     </div>
   )
